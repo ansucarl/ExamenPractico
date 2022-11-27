@@ -10,9 +10,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/bienvenidos_a_mega_cine"
+        android:textColor="#009688"
         android:textStyle="bold"
-        android:textColor="@color/teal_200"
-        android:text="Bienvenidos a Mega Cine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         android:layout_marginTop="12dp"
         android:textStyle="bold"
         android:textColor="@color/teal_700"
-        android:text="Juego Trivia Magica"
+        android:text="@string/juego_trivia_magica"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -39,7 +39,7 @@
         android:layout_marginTop="104dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:text="Instrucciones"
+        android:text="@string/instrucciones"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,8 +49,7 @@
         android:layout_height="58dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="4dp"
-        android:text="Contesta correctamente sigue a la siguiente pregunta, si falla se detiene la trivia mostrando cuantas
-preguntas a respondido"
+        android:text="@string/contesta_correctamente_sigue_a_la_siguiente_pregunta_si_falla_se_detiene_la_trivia_mostrando_cuantas_preguntas_a_respondido"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -61,7 +60,7 @@ preguntas a respondido"
         android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
         android:textColor="@color/black"
-        android:text="Premio"
+        android:text="@string/premio"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -72,7 +71,7 @@ preguntas a respondido"
         android:layout_height="43dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
-        android:text="Los participantes podrán ganar una entrada al cine gratuito"
+        android:text="@string/los_participantes_podr_n_ganar_una_entrada_al_cine_gratuito"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -82,7 +81,7 @@ preguntas a respondido"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
         android:layout_marginTop="12dp"
-        android:text="Empezar"
+        android:text="@string/empezar"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -93,7 +92,7 @@ preguntas a respondido"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="16dp"
-        android:text="Desarrolladores: Andres Suarez - Gerson Yuquilema"
+        android:text="@string/desarrolladores_andres_suarez_gerson_yuquilema"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -106,6 +105,7 @@ preguntas a respondido"
         android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BotonEmpezar"
-        app:srcCompat="@drawable/logo_megacine" />
+        app:srcCompat="@drawable/logo_megacine"
+        android:contentDescription="@string/todo" />
 
 </android.support.constraint.ConstraintLayout>

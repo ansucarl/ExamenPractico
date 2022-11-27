@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AMSTExamen</string>
+    <string name="bienvenidos_a_mega_cine">Bienvenidos a Mega Cine</string>
+    <string name="juego_trivia_magica">Juego Trivia Magica</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="contesta_correctamente_sigue_a_la_siguiente_pregunta_si_falla_se_detiene_la_trivia_mostrando_cuantas_preguntas_a_respondido">Contesta correctamente sigue a la siguiente pregunta, si falla se detiene la trivia mostrando cuantas preguntas a respondido</string>
+    <string name="premio">Premio</string>
+    <string name="los_participantes_podr_n_ganar_una_entrada_al_cine_gratuito">Los participantes podrán ganar una entrada al cine gratuito</string>
+    <string name="empezar">Empezar</string>
+    <string name="desarrolladores_andres_suarez_gerson_yuquilema">Desarrolladores: Andres Suarez - Gerson Yuquilema</string>
+    <string name="todo">TODO</string>
 </resources>
