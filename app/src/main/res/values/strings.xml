@@ -9,4 +9,8 @@
     <string name="empezar">Empezar</string>
     <string name="desarrolladores_andres_suarez_gerson_yuquilema">Desarrolladores: Andres Suarez - Gerson Yuquilema</string>
     <string name="todo">TODO</string>
+    <string name="salir">Salir</string>
+    <string name="ha_ganado_una_entrada_al_cine">Ha ganado una entrada al cine</string>
+    <string name="win">WIN</string>
+    <string name="qr">QR</string>
 </resources>
