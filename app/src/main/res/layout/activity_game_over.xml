@@ -11,13 +11,14 @@
         android:layout_height="266dp"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="89dp"
-        tools:srcCompat="@drawable/gov" />
+        tools:srcCompat="@drawable/gov"
+        android:contentDescription="@string/gov" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lo siento"
+        android:text="@string/lo_siento"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="299dp" />
 
@@ -25,7 +26,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ha perdido"
+        android:text="@string/ha_perdido"
         tools:layout_editor_absoluteX="172dp"
         tools:layout_editor_absoluteY="318dp" />
 
@@ -33,7 +34,7 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/textview"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="407dp" />
 
@@ -41,7 +42,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Volver a Jugar"
+        android:text="@string/volver_a_jugar"
         tools:layout_editor_absoluteX="137dp"
         tools:layout_editor_absoluteY="452dp" />
 
@@ -49,7 +50,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salir"
+        android:text="@string/salirr"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="520dp" />
 </android.support.constraint.ConstraintLayout>
